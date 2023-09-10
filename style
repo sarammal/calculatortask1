@@ -1,0 +1,60 @@
+ *{
+    background-color:rgb(88, 248, 195);
+    margin:0;
+    padding:0;
+    box-sizing: border-box  ;
+    font-family:sans-serif;
+    outline:none; 
+
+ }
+ .container{
+
+height:100vh;
+display:flex;
+justify-content: center;
+align-items: center;
+
+}
+.calculator{
+display:grid;
+grid-template-columns: repeat(4,68px);
+background-color:rgb(133, 239, 204);;
+padding:15px;
+border-radius:30px;
+box-shadow: inset 5px 5px 12px rgb(203, 241, 228),
+                   5px 5px 12px rgb(0,0,0,.16);
+}
+input{
+    grid-column: span 4;
+    width:260px;
+    height: 70px;
+    background-color:rgb(133, 239, 204);
+    border-radius:30px;
+    box-shadow: inset -6px -6px 15px rgb(203, 241, 228),
+                       6px 6px 15px rgba(0, 0, 0,.16);
+                   
+    text-align:end;
+    border:none;
+    font-size:40px;
+    margin-top:40px;
+    margin-bottom:40px;
+    padding:20px;
+}    
+button{
+    border:none;
+    height:50px;
+    width:50px;
+    margin-bottom:10px;
+    background-color:rgb(133, 239, 204); 
+    border-radius:15px;
+    box-shadow: inset -6px -6px 15px rgb(203, 241, 228),
+                       6px 6px 15px rgba(0, 0, 0,.16);
+}
+.eq{
+   background-color:rgb(133, 239, 204);
+   height:50px;
+   width:125px;
+   border-radius:25px;
+   box-shadow: inset -5px -5px 12px rgb(203, 241, 228),
+                      5px 5px 12px rgba(0, 0, 0,.16);
+}
